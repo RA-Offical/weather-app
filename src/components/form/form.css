@@ -1,0 +1,50 @@
+.form-wrapper {
+	padding-bottom: 2rem;
+}
+
+.form {
+	border-radius: 1rem;
+	border: 1px solid rgb(211, 211, 211);
+	box-shadow: 0 0 10px -1px rgba(0, 0, 0, 0.1);
+	background-color: transparent;
+	overflow: hidden;
+}
+
+.search-group {
+	display: flex;
+	height: 50px;
+}
+
+.control {
+	width: 100%;
+}
+
+.control input {
+	padding-inline: 2rem;
+	height: 100%;
+	width: 100%;
+	outline: none;
+	border: 0;
+}
+
+.form__search--btn {
+	width: 8rem;
+	position: relative;
+	background-color: var(--color-secondary);
+}
+
+.form__search--btn::after {
+	content: "";
+	position: absolute;
+	top: 1px;
+	bottom: 1px;
+	left: 0;
+	background-color: var(--color-primary);
+	opacity: 0.1;
+	width: 1px;
+}
+
+.form__search--btn svg {
+	width: 50%;
+	height: 50%;
+}

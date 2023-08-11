@@ -1,0 +1,35 @@
+.skelton-loader {
+	background-color: #fff;
+	border-radius: 1.6rem;
+	overflow: hidden;
+	padding: 1rem 2rem;
+}
+
+.skelton {
+	animation: skelton-loading 1s linear infinite alternate;
+}
+
+.skelton-loader > *:not(:last-child) {
+	margin-bottom: 0.5em;
+}
+
+.skelton__lg {
+	height: 5rem;
+}
+
+.skelton__sm {
+	height: 2rem;
+}
+
+.skelton__md {
+	height: 3.5rem;
+}
+
+@keyframes skelton-loading {
+	0% {
+		background-color: rgb(243, 243, 243);
+	}
+	100% {
+		background-color: rgb(219, 218, 218);
+	}
+}
