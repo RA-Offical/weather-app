@@ -6,6 +6,7 @@
 }
 
 .skelton {
+	border-radius: 1rem;
 	animation: skelton-loading 1s linear infinite alternate;
 }
 
